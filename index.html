@@ -1,0 +1,46 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Task3</title>
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <h3>Task3</h3>
+        <form onsubmit="return flase">
+            <input type = "text"
+                   placeholder='Name'
+                   id="add-collection-collectionName-input">
+            <button type="button" id="add-collection-button" >Add Collection</button>
+
+            <hr>
+            <input type="text"
+                   id="add-property-collectionName-input"
+                   placeholder='Collection name'>
+            <input type="text"
+                   id="add-property-propertyName-input"
+                   placeholder='Value'>
+            <button type="button" id='add-property-button'>Add Value</button>
+
+            </br>
+            <input type="text" 
+                   id="remove-firstProperty-collectionName-input"
+                   placeholder='Collection name' > 
+            <button type="button" id='remove-firstProperty-button'>Remove first</button>
+
+            </br>
+            <input type="text"
+                   id="remove-lastProperty-collectionName-input"
+                   placeholder='Collection name' >
+            <button type="button" id='remove-lastProperty-button'>Remove last</button>
+
+            </br>
+            <input type="text"
+                   id="clearAll-collectionName-input"
+                   placeholder='Collection name' > 
+            <button type="button" id='clearAll-button'>Clear all</button>
+
+            </br>
+            <p id="result-paragraph"></p>
+        </form>
+    </body>
+</html>
